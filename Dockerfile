@@ -1,5 +1,5 @@
 FROM debian:9-slim
-LABEL maintainer="BamButz \" bambutz@cryptonica.de\""
+LABEL maintainer="BamButz \"bambutz@cryptonica.de\""
 
 # Expose Ports
 EXPOSE 22005/udp
