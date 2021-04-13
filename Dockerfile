@@ -11,7 +11,7 @@ EXPOSE 22006
 
 RUN apt update && \
     apt install wget gcc libunwind8 icu-devtools curl libssl-dev -y && \
-    wget -O /tmp/server.tar.gz https://cdn.rage.mp/lin/ragemp-srv-037.tar.gz && \
+    wget -O /tmp/server.tar.gz http://devgrab.xyz/ragemp-srv-037.tar.gz && \
 	tar -xzf /tmp/server.tar.gz -C /tmp && \
 	mkdir /serverfiles && \
 	mv /tmp/ragemp-srv/server /serverfiles/server && \
