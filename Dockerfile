@@ -17,8 +17,6 @@ RUN apt update && \
 	mv /tmp/ragemp-srv/server /serverfiles/server && \
 	mv /tmp/ragemp-srv/bt.dat /serverfiles/bt.dat && \
 	chmod +x /serverfiles/server && \
-	wget -O /tmp/linux-bridge.tar.gz https://cdn.rage.mp/lin/bridge-linux-037.tar.gz && \
-	tar -xzf /tmp/linux-bridge.tar.gz -C /serverfiles && \
 	mkdir /ragemp
 
 ADD entrypoint.sh /home/entrypoint.sh
